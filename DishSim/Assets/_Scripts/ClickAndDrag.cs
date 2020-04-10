@@ -29,10 +29,11 @@ public class ClickAndDrag : MonoBehaviour
         }   
     }
 
-    // void OnMouseExit() //Also self explanatory
-    // {
-    //    isPicked = false;
-    // }
+    void OnMouseExit() //Also self explanatory
+    {
+        
+        isPicked = false;
+    }
 
 
 }
